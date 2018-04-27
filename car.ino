@@ -66,7 +66,6 @@ void setup() {
 }
 
 void sevent(String payloads) {
-  Serial.println(payloads);
   char payload[2];
   payloads.toCharArray(payload, 2);
     if (strcmp("lf", (const char * ) payload) == 0) {
