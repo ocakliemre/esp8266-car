@@ -6,8 +6,7 @@ A simple car with remote project that uses websockets.<br>
 
 - Pins are defined in the code
 - No password on Wi-Fi
-- Tested partially (with a multimeter lol)
-
+- NodeMCU D2 might sometimes set itself to HIGH for a few seconds. "Remove serial logging" commit might have fixed that.
 
 ### Licensing
 Do What the Fuck You Want to Public License
